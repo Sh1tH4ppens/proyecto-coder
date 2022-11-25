@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body::-webkit-scrollbar {
+	width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #3da5e2;
+  border-radius: 20px;
+}
+
+/* Header */
+
+header {
+  margin-top: 30px;
+}
