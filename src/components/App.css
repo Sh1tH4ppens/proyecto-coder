@@ -7,9 +7,9 @@ header .nav {
 /* Logo */
 
 header .logo {
- font-size: 16px;
- display: inline-block;
- margin: 0;
+  font-size: 16px;
+  display: inline-block;
+  margin: 0;
 }
 
 /* Menu */
@@ -29,18 +29,40 @@ header .menu a div span {
   font-weight: 600;
 }
 
-header .menu .c-1 {background: black;}
-header .menu .c-2 {background: #3da5e2;}
-header .menu .c-3 {background: #005385;}
-header .menu .c-4 {background: #003855;}
+header .menu .c-1 {
+  background: black;
+}
 
-header .menu .c-1:hover{background: #3da5e2;}
-header .menu .c-2:hover{background: #1ba0cf;}
-header .menu .c-3:hover{background: #00426a;}
-header .menu .c-4:hover{background: #002d44;}
+header .menu .c-2 {
+  background: #3da5e2;
+}
+
+header .menu .c-3 {
+  background: #005385;
+}
+
+header .menu .c-4 {
+  background: #003855;
+}
+
+header .menu .c-1:hover {
+  background: #3da5e2;
+}
+
+header .menu .c-2:hover {
+  background: #1ba0cf;
+}
+
+header .menu .c-3:hover {
+  background: #00426a;
+}
+
+header .menu .c-4:hover {
+  background: #002d44;
+}
 
 .logo img:hover {
-  transform: scale(1.2,1.2);
+  transform: scale(1.2, 1.2);
 }
 
 /* Slider */
@@ -220,85 +242,102 @@ header .menu .c-4:hover{background: #002d44;}
   transition: all .3s ease;
 }
 
-.redes-sociales .twitter {background: #1da1f2;}
-.redes-sociales .instagram {background: #833ab4;}
-.redes-sociales .facebook {background: #3b5898;}
+.redes-sociales .twitter {
+  background: #1da1f2;
+}
+
+.redes-sociales .instagram {
+  background: #833ab4;
+}
+
+.redes-sociales .facebook {
+  background: #3b5898;
+}
 
 /* Mediaqueries */
 
 /* Dispositivo xl */
 @media screen and (max-width:1199px) {}
 
-  /* Dispositivo lg */
-  @media screen and (max-width:991px) {
-    .logo {
-      height: 76px;
-      padding-bottom: 5px;
-    }
-
-    .menu {
-      min-height: 76px;
-    }
-
-    .menu a {
-      width: 100%;
-    }
-
-    .menu a div {
-      width: 100%;
-    }
-
+/* Dispositivo lg */
+@media screen and (max-width:991px) {
+  .logo {
+    height: 76px;
+    padding-bottom: 5px;
   }
 
-  /* Dispositivo sm */
-  @media screen and (max-width: 575px) {
-    header {
-      margin-top: 0;
-      text-align: center;
-    }
-
-    header .logo {
-      height: 85px;
-      padding-bottom: 0;
-    }
-
-    .redes-sociales .icono {
-      width: 50px;
-      height: 50px;
-      line-height: 50px;
-      font-size: 20px;
-    }
+  .menu {
+    min-height: 76px;
   }
 
-  .cardProducto {
-    width: 18rem;
-    margin: 4px;
-    background-color: hsl(0, 0%, 97%);
+  .menu a {
+    width: 100%;
+  }
+
+  .menu a div {
+    width: 100%;
+  }
+
+}
+
+/* Dispositivo sm */
+@media screen and (max-width: 575px) {
+  header {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  header .logo {
+    height: 85px;
+    padding-bottom: 0;
+  }
+
+  .redes-sociales .icono {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+  }
+}
+
+.cardProducto {
+  width: 18rem;
+  margin: 4px;
+  background-color: hsl(0, 0%, 97%);
 }
 
 .cardBody {
-    background-color: white;
-    margin-bottom: 3px;
-    text-align: center;
+  background-color: white;
+  margin-bottom: 3px;
+  text-align: center;
 }
 
 img {
-    margin-top:3px;
+  margin-top:3px;
 }
 
 .cardProductos {
-    margin: 4px;
-    align-items:center;
-    justify-content: center;
+  margin: 4px;
+  align-items:center;
+  justify-content: center;
 }
 
 .cartWidget {
-    position: relative;
-    left: 33%;
-    color:white;
+  position: relative;
+  right: 3%;
+  color:white;
+}
+
+.nav-item {
+  margin: 10px;
 }
 
 .cantCarrito {
-    position: relative;
-    left: 13%;
+  position: relative;
+  left: 15%;
+}
+
+.itemDetail {
+  max-width: 540px;
+  margin-top: 20px;
 }
