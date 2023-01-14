@@ -16,33 +16,44 @@ header .logo {
 
 header .menu {
   padding: 0;
+  margin-bottom: 0;
 }
 
-header .menu a {
+header .menu button {
   display: block;
   text-decoration: none;
   color: #fff;
   padding: 0 30px;
+  border: none;
 }
 
-header .menu a div span {
+header .menu button div span {
   font-weight: 600;
+  color: #fff;
+}
+
+header .menu button div i {
+  color: #fff;
 }
 
 header .menu .c-1 {
   background: black;
+  color: #fff;
 }
 
 header .menu .c-2 {
   background: #3da5e2;
+  color: #fff;
 }
 
 header .menu .c-3 {
   background: #005385;
+  color: #fff;
 }
 
 header .menu .c-4 {
   background: #003855;
+  color: #fff;
 }
 
 header .menu .c-1:hover {
@@ -69,6 +80,7 @@ header .menu .c-4:hover {
 
 .slider {
   margin-bottom: 40px;
+  margin-top: 0;
 }
 
 .slider .col {
@@ -270,11 +282,11 @@ header .menu .c-4:hover {
     min-height: 76px;
   }
 
-  .menu a {
+  .menu button {
     width: 100%;
   }
 
-  .menu a div {
+  .menu button div {
     width: 100%;
   }
 

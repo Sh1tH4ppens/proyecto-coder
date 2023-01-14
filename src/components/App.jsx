@@ -4,6 +4,8 @@ import Navbar from './Navbar/Navbar.jsx';
 import Carrousel from './Carrousel/Carrousel.jsx';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
+import Cart from './Cart/Cart';
+import Checkout from './Checkout/Checkout';
 
 function App() {
   return (
@@ -17,11 +19,13 @@ function App() {
         </header>
         <main>
           <div className='container'>
-            <Routes>
-              <Route path='/' element={<ItemListContainer />} />
-              <Route path='/product/:id' element={<ItemDetailContainer />} />
-              <Route path='/category/:category' element={<ItemListContainer />} />
-            </Routes>
+          <Routes>
+            <Route path='/' element={<ItemListContainer/>}/>
+            <Route path='/product/:id' element={<ItemDetailContainer/>}/>
+            <Route path='/category/:category' element={<ItemListContainer/>}/>
+            <Route path='/cart' element={<Cart/>}/>
+            <Route path='/checkout' element={<Checkout/>}/>
+          </Routes>
           </div>
         </main>
       </BrowserRouter>

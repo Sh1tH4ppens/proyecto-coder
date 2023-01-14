@@ -1,5 +1,5 @@
 import Categorias from "./Categorias/Categorias";
-import CartWidget from "../CartWidget.jsx/CartWidget";
+import CartWidget from "../CartWidget/CartWidget";
 import logo from '../../img/Logo-1.png';
 
 const Navbar = () => {
